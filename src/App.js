@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 import Header from "./components/Header"
-import Card from './components/Card'
+import Card from './components/WeatherForcast'
 import cardsArr from "./data"
 console.log("this is cardsArr:", cardsArr)
 

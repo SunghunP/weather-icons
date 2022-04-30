@@ -1,13 +1,12 @@
 import React from "react";
 
-const Card = (props) => {
+const WeatherData = (props) => {
 	return (
-		<div class="weather">
-			<img src={props.imgSrc} alt="an image" />
+		<div>
 			<p><span>conditions:</span> {props.condition}</p>
 			<p><span>time:</span> {props.time}</p>
 		</div>
 	)
 }
 
-export default Card
+export default WeatherData
