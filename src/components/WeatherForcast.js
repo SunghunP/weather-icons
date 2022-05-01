@@ -9,7 +9,7 @@ const WeatherForcast = (props) => {
 				src={props.imgSrc}
 			/>
 			<WeatherData 
-				condition={props.condition}
+				conditions={props.conditions}
 				time={props.time}
 			/>
 		</div>

@@ -1,23 +1,23 @@
 export default [
 	{
 		imgSrc: "http://res.cloudinary.com/jkeohan/image/upload/v1535732381/day.svg",
-		condition: 'sunny',
+		conditions: 'sunny',
 		time: 'day'
 	}, {
 		imgSrc: "http://res.cloudinary.com/jkeohan/image/upload/v1535732381/night.svg",
-		condition: 'clear',
+		conditions: 'clear',
 		time: 'day',
 	}, {
 		imgSrc: "http://res.cloudinary.com/jkeohan/image/upload/v1535732381/stormy.svg",
-		condition: 'clear',
+		conditions: 'clear',
 		time: 'day',
 	}, {
 		imgSrc: "http://res.cloudinary.com/jkeohan/image/upload/v1535732381/cloudy-day_t7ckxp.svg",
-		condition: 'partly sunny',
+		conditions: 'partly sunny',
 		time: 'night',
 	}, {
 		imgSrc: 'http://res.cloudinary.com/jkeohan/image/upload/v1535732381/cloudy-night.svg',
-		condition: 'clear',
+		conditions: 'clear',
 		time: 'day',
 	}
 ]
